@@ -30,7 +30,7 @@ export const login=async(values:z.infer<typeof LoginSchema>)=>
     // }
     existingUser.emailVerified=new Date()
     try{
-        await signIn('credentials',{email,password,redirectTo:"/"})
+        await signIn('credentials',{email,password,redirectTo:"/dashb"})
         
         return {success:"Logged in"}
     }catch(error:any){

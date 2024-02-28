@@ -67,8 +67,8 @@
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",
     "@types/leaflet": "^1.9.8",
-    "@types/node": "^20",
-    "@types/react": "^18",
+    "@types/node": "20.11.21",
+    "@types/react": "18.2.60",
     "@types/react-dom": "^18",
     "@types/tween-functions": "^1.2.2",
     "autoprefixer": "^10.0.1",
@@ -76,6 +76,6 @@
     "prisma": "^5.9.1",
     "prisma-dbml-generator": "^0.10.0",
     "tailwindcss": "^3.3.0",
-    "typescript": "^5"
+    "typescript": "5.3.3"
   }
 }
